@@ -70,3 +70,19 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     text-wrap: balance;
 }
+.resume h1 {
+    text-align: center;
+}
+
+.resume > p {
+    text-align: center;
+}
+
+section h2 {
+    border-bottom: 1px solid black;
+}
+
+article h3, article p:first-of-type {
+    display: flex;
+    justify-content: space-between;
+}
