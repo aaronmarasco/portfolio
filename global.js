@@ -24,8 +24,8 @@ function normalizePath(path) {
 let nav = document.createElement("nav");
 document.body.prepend(nav);
 
-document.body.insertAdjacentHTML(
-  "afterbegin",
+nav.insertAdjacentHTML(
+  "afterend",
   `
     <label class="color-scheme">
       Theme:
