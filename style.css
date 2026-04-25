@@ -94,6 +94,24 @@ article h3, article p:first-of-type {
     display: flex;
     justify-content: space-between;
 }
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em;
+  text-align: center;
+  margin: 0;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-weight: bold;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+}
+
 html {
   color-scheme: light dark;
 }
